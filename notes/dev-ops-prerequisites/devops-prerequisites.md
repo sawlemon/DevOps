@@ -58,14 +58,17 @@ inside `/etc/systemd/system` folder create a \<servicename>.system file
 the file must contain
 
     [Service]
-    ExecStart=\<command to execute after reboot>
+    ExecStart=<command to execute after reboot>
 
     [Install]
     WantedBy=multi-user.target
 
 then run `systemctl daemon-reload` to enable it
 
-finally `systemctl start <service name>`
+finally 
+`systemctl start <service name>`
+
+`systemctl enable <service-name>`
 
 Example
 

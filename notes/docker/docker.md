@@ -1,3 +1,5 @@
+![](docker_logo.png)
+
 ## [Docker](https://docs.docker.com/get-started/)
 
 Docker is a platform for developers and sysadmins to build, run, and share applications with containers
@@ -12,4 +14,8 @@ Each container interacts with its own private filesystem; this filesystem is pro
 ## Image
 
 An image includes everything needed to run an application - the code or binary, runtimes, dependencies, and any other filesystem objects required.
+
+
+
+**--publish** asks Docker to forward traffic incoming on the host’s port 8000 to the container’s port 8080. Containers have their own private set of ports, so if you want to reach one from the network, you have to forward traffic to it in this way. Otherwise, firewall rules will prevent all network traffic from reaching your container, as a default security posture.
 

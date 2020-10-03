@@ -127,7 +127,7 @@ Containerization Tools
 
 Automation Tools
 
-    Ansible
+    Ansible - Orchestration 
     Chef
     Puppet
 

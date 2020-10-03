@@ -76,6 +76,13 @@ Docker Service FIle
 ![](2020-10-01-13-45-50.png)
 
 
+## [Daemon](https://en.wikipedia.org/wiki/Daemon_(computing))
+
+A daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user.
+
+raditionally, the process names of a daemon end with the letter d
+
+syslogd is a daemon that implements system logging facility, and sshd is a daemon that serves incoming SSH connections. systemd is also notable
 
 ## VI Editor
 
@@ -137,4 +144,10 @@ Linux `service sshd status` SSH Service
 
 if ip address is not set, run the following
 ![](2020-10-01-14-06-49.png)
+
+## [NAT](https://en.wikipedia.org/wiki/Network_address_translation)
+
+Network address translation (NAT) is a method of remapping an IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device.
+
+**IP masquerading** is a technique that hides an entire IP address space, usually consisting of private IP addresses, behind a single IP address in another, usually public address space.
 

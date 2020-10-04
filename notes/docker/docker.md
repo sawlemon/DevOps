@@ -40,3 +40,35 @@ An image includes everything needed to run an application - the code or binary, 
 `docker push salakhaliffjr/flaskserver:3.0`
 
 
+Entrypoint
+![](2020-10-04-19-33-29.png)
+
+
+To skip port map
+
+`docker run <image> --network=host`
+
+View detailed info 
+
+`docker inspect <container-name>`
+
+
+## File Storage 
+
+Docker Files location
+
+`/var/lib/docker`
+
+## **Persistence**
+
+`docker volume <volume-name>`
+
+not mandatory, docker automatically createsw volume if none exist
+
+creates a folder in `/var/lib/docker/volumes/<volume-name>` 
+
+`docker run -v <volume-name>:</path/in/container>  container-name:tag`
+
+newer method 
+
+`docker run --mount type=bind,source=/path/in/local/system, target=/path/in/container container-name:tag`

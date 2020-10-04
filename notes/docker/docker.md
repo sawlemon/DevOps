@@ -21,12 +21,22 @@ An image includes everything needed to run an application - the code or binary, 
 
 
 
-`sudo docker build --tag container-name:version <path-to-docker-file>`
+`docker build --tag container-name:version <path-to-docker-file>`
 
-`docker run -p 80:80 -it container-name:version`
+`docker run -p 80:80 -it -d container-name:version`
 
 `docker exec 'container_name' <command-to-run>`
 
-## [Dockr File Builder](https://docs.docker.com/engine/reference/builder/)
+**Dockerfile**
+## [Docker File Builder](https://docs.docker.com/engine/reference/builder/)
+    List of commands to use inside docker build file
+
+
+`docker tag flaskserver:3.0 salakhaliffjr/flaskserver:3.0`
+
+
+`docker login`
+
+`docker push salakhaliffjr/flaskserver:3.0`
 
 

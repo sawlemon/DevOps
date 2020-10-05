@@ -184,6 +184,9 @@ To create a symbolic Link
 
 ![](targzip.png)
 
+[How To Read and Set Environmental and Shell Variables on a Linux VPS](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps#:~:text=Environmental%20variables%20are%20used%20to,like%20the%20current%20working%20directory.)
+
+
 
 <!-- archive - muliple files to single
 

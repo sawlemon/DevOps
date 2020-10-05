@@ -165,6 +165,9 @@ To create a symbolic Link
     export sets attribute value for a environment variable
 
 
+`nice`
+
+     A niceness of -20 is the highest priority and 19 is the lowest priority. The default niceness for processes is inherited from its parent process and is usually 0
 
 <!-- archive - muliple files to single
 

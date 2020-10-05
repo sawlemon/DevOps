@@ -121,15 +121,38 @@ NAT vs Proxy
 
     The related locate programs use a database of indexed files obtained through find (updated at regular intervals, typically by cron job) to provide a faster method of searching the entire file system for files by name.
 
+`find ./GFG -name sample.txt -exec rm -i {} \;`
 
-[Symbolic Links](https://en.wikipedia.org/wiki/Symbolic_link)
+    {} means "the output of find". As in, "whatever find found". find returns the path of the file you're looking for, right? So {} replaces it; it's a placeholder for each file that the find command locates
+
+    The \; part is basically telling find "okay, I'm done with the command I wanted to execute".
+
+
+### [Symbolic Links](https://en.wikipedia.org/wiki/Symbolic_link)
+
+To create a symbolic Link
 
 `ln -s target_path link_path`
 
 
 
+### [Cron](https://en.wikipedia.org/wiki/Cron)
+
+    Job Scheduler
+
+[Xargs](https://en.wikipedia.org/wiki/Xargs)
+    
+    Extended Arguments
+
+[xargs examples](https://www.geeksforgeeks.org/xargs-command-unix/)
+
+
+
 
 ---
+
+
+
 Create folder tree in single command
     
 `mkdir -p /home/sub1/sub2`

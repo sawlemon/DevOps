@@ -140,12 +140,21 @@ To create a symbolic Link
 
     Job Scheduler
 
+**Need Explore **
+--- 
+
 [Xargs](https://en.wikipedia.org/wiki/Xargs)
     
     Extended Arguments
 
 [xargs examples](https://www.geeksforgeeks.org/xargs-command-unix/)
 
+
+
+`awk`
+
+    The basic function of awk is to search files for lines (or other units of text) that contain certain patterns. When a line matches one of the patterns, awk performs specified actions on that line. awk continues to process input lines in this way until it reaches the end of the input files.
+[awk examples](https://www.geeksforgeeks.org/awk-command-unixlinux-examples/)
 
 
 

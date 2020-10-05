@@ -157,7 +157,12 @@ To create a symbolic Link
 
 `awk`
 
+    pattern scanning and processing language
+
+`awk options 'selection _criteria {action }' input-file > output-file`
+
     The basic function of awk is to search files for lines (or other units of text) that contain certain patterns. When a line matches one of the patterns, awk performs specified actions on that line. awk continues to process input lines in this way until it reaches the end of the input files.
+
 [awk examples](https://www.geeksforgeeks.org/awk-command-unixlinux-examples/)
 
 
@@ -188,7 +193,24 @@ To create a symbolic Link
 
     It reads the first file that it can find out of ~/.bash_profile, ~/.bash_login, and ~/.profile and does not read any further files.
 
-    
+`source`
+
+    run a file that has list of commands line by line
+
+[source example](https://bash.cyberciti.biz/guide/Source_command)
+
+[exit status codes](https://shapeshed.com/unix-exit-codes/)
+
+[C Shell csh](https://en.wikipedia.org/wiki/C_shell)
+
+![](2020-10-06-01-16-03.png)
+
+![](2020-10-06-01-16-23.png)
+
+Files read by bash during login
+
+![](bashreads.png)
+
 <!-- archive - muliple files to single
 
 tar - cvf c compress verbose f fillename x extract
@@ -199,6 +221,7 @@ tar -tgf j - bzip2 -- more speed less compression
 tar -x to unzip
 
 tar.gz 
+
 tar.bz2
 
 -r folder

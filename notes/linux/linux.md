@@ -180,6 +180,9 @@ To create a symbolic Link
 
 [rsync](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps)
 
+[gzip](https://en.wikipedia.org/wiki/Gzip)
+
+![](targzip.png)
 
 
 <!-- archive - muliple files to single

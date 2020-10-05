@@ -166,7 +166,7 @@ To create a symbolic Link
 
 
 
-archive - muliple files to single
+<!-- archive - muliple files to single
 
 tar - cvf c compress verbose f fillename x extract
 z single enc technique 
@@ -179,7 +179,7 @@ tar.gz
 tar.bz2
 
 -r folder
-
+ -->
 
 ---
 

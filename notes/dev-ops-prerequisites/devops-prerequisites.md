@@ -44,6 +44,7 @@ repo info is stored at `/etc/yum.repos.d`
 ![](2020-10-01-13-35-57.png)
 
 
+
 ## Sevices
 
 Run a service even after reboot

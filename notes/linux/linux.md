@@ -109,6 +109,26 @@ NAT vs Proxy
 `scp [OPTION] [user@]SRC_HOST:]file1 [user@]DEST_HOST:]file2`
 
 
+`sed` [stream editor](https://www.gnu.org/software/sed/manual/sed.html#Common-Commands)
+
+[examples](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
+
+![](2020-10-05-15-53-07.png)
+
+![](scommand.png)
+
+[find](https://en.wikipedia.org/wiki/Find_(Unix)) 
+
+    The related locate programs use a database of indexed files obtained through find (updated at regular intervals, typically by cron job) to provide a faster method of searching the entire file system for files by name.
+
+
+[Symbolic Links](https://en.wikipedia.org/wiki/Symbolic_link)
+
+`ln -s target_path link_path`
+
+
+
+
 ---
 Create folder tree in single command
     

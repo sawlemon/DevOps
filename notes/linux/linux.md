@@ -18,9 +18,98 @@
 
 
 ![](2020-10-05-12-41-41.png)
+
+why difference ??
+
 ![](2020-10-05-12-42-35.png)
 
+## [env](https://en.wikipedia.org/wiki/Env)
 
+    Run a program in modefied environment or view environment variables
+
+`env`
+![](2020-10-05-12-55-15.png)
+
+![](2020-10-05-13-01-42.png)
+
+
+`export`
+
+    set env variables 
+
+![](2020-10-05-13-02-59.png)
+
+
+[Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) `#!`
+
+`#!/usr/bin/env python3`
+
+    refers to the python3 variable name in environment variables
+
+`netstat`
+
+![](2020-10-05-13-17-48.png)
+
+`top` 
+
+    displays processes
+
+`htop`
+
+    interactive process viewer    
+
+`free`
+
+    displays memory details 
+![](2020-10-05-13-22-33.png)    
+
+`/etc` - Usually contain the configuration files for all the programs that run on your Linux/Unix system.
+
+[swap](https://www.cyberciti.biz/faq/linux-check-swap-usage-command/)
+
+`swapon` or `swapoff` 
+
+
+[less](https://linuxize.com/post/less-command-in-linux/)
+
+    less > more
+
+[Vim Cheatsheet](https://devhints.io/vim)
+    
+    vi starts vim in ubuntu by default
+
+[umask](https://www.computerhope.com/unix/uumask.htm#:~:text=On%20Linux%20and%20other%20Unix,show%20you%20its%20current%20value.)
+![](umask.png)
+
+
+[Telnet vs SSH](https://study-ccna.com/telnet-ssh/)
+    
+    tenet - not secure - port 23
+    ssh - secure public key encryption   - port 22
+
+
+
+`truncate`
+
+    shrink or exppand a file for specific size
+
+files greater than specific size
+
+`find . -size +10k -ls`
+
+
+NAT vs Proxy
+
+    These two technologies differ in their positions in the TCP/IP protocol stack. NAT works at the network layer while proxy at the application layer. NAT is transparent to various applications, whereas proxy must resort to the IP address of the proxy server specified in application programs. For example, to access a web page by using NAT, no configuration is required in the browser. To access a web page by using a proxy, you must specify the IP address of the proxy in the browser. If the proxy supports only HTTP, only web servers can be accessed through the proxy, but not FTP. In terms of Internet access, NAT delivers higher scalability than proxy, because NAT is not targeted at applications.
+
+[How to Copy Files From a Remote System (ftp)](https://docs.oracle.com/cd/E19253-01/816-4555/remotehowtoaccess-87541/index.html)
+    
+    oracle docs
+
+`scp [OPTION] [user@]SRC_HOST:]file1 [user@]DEST_HOST:]file2`
+
+
+---
 Create folder tree in single command
     
 `mkdir -p /home/sub1/sub2`

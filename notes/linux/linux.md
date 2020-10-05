@@ -178,6 +178,9 @@ To create a symbolic Link
     over writing
 
 
+[rsync](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps)
+
+
 
 <!-- archive - muliple files to single
 

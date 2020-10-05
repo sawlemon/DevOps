@@ -157,6 +157,29 @@ To create a symbolic Link
 [awk examples](https://www.geeksforgeeks.org/awk-command-unixlinux-examples/)
 
 
+## **Set Vs Export**
+
+    set is limited to current session
+    export 
+
+    export sets attribute value for a environment variable
+
+
+
+archive - muliple files to single
+
+tar - cvf c compress verbose f fillename x extract
+z single enc technique 
+tar -tgf g - gzip 
+tar -tgf j - bzip2 -- more speed less compression
+
+tar -x to unzip
+
+tar.gz 
+tar.bz2
+
+-r folder
+
 
 ---
 

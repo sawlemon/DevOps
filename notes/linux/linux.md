@@ -186,8 +186,9 @@ To create a symbolic Link
 
 [How To Read and Set Environmental and Shell Variables on a Linux VPS](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps#:~:text=Environmental%20variables%20are%20used%20to,like%20the%20current%20working%20directory.)
 
+    It reads the first file that it can find out of ~/.bash_profile, ~/.bash_login, and ~/.profile and does not read any further files.
 
-
+    
 <!-- archive - muliple files to single
 
 tar - cvf c compress verbose f fillename x extract

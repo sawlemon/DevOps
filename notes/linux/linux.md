@@ -58,6 +58,10 @@ why difference ??
 
     interactive process viewer    
 
+[most](https://linux.die.net/man/1/most)
+
+    most is a paging program that displays, one windowful at a time, the contents of a file on a terminal. It pauses after each windowful and prints on the window status line the screen the file name, current line number, and the percentage of the file so far displayed.
+
 `free`
 
     displays memory details 
@@ -165,9 +169,15 @@ To create a symbolic Link
     export sets attribute value for a environment variable
 
 
-`nice`
+[nice](https://en.wikipedia.org/wiki/Nice_(Unix)#:~:text=nice%20is%20used%20to%20invoke,process%20and%20is%20usually%200.)
 
      A niceness of -20 is the highest priority and 19 is the lowest priority. The default niceness for processes is inherited from its parent process and is usually 0
+
+[> clobbering](https://en.wikipedia.org/wiki/Clobbering)
+
+    over writing
+
+
 
 <!-- archive - muliple files to single
 

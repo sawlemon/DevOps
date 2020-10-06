@@ -79,7 +79,10 @@ why difference ??
     less > more
 
 [Vim Cheatsheet](https://devhints.io/vim)
-    
+
+
+[Vim Sheet](https://vimsheet.com/)
+
     vi starts vim in ubuntu by default
 
 [umask](https://www.computerhope.com/unix/uumask.htm#:~:text=On%20Linux%20and%20other%20Unix,show%20you%20its%20current%20value.)

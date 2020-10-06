@@ -211,6 +211,18 @@ Files read by bash during login
 
 ![](bashreads.png)
 
+[screen tool](https://linuxize.com/post/how-to-use-linux-screen/)
+
+[Stayin alive with screen](https://developer.ibm.com/articles/au-gnu_screen/)
+
+
+[Screen for remote interaction](https://www.linux.com/training-tutorials/using-screen-remote-interaction/)
+
+[tumux cheat sheet](https://tmuxcheatsheet.com/)
+
+
+
+
 <!-- archive - muliple files to single
 
 tar - cvf c compress verbose f fillename x extract

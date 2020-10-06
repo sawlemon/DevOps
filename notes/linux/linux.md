@@ -224,6 +224,18 @@ Files read by bash during login
 [tumux cheat sheet](https://tmuxcheatsheet.com/)
 
 
+[etc](https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/etc.html)
+
+    This is the nerve center of your system, it contains all system related configuration files in here or in its sub-directories
+
+
+[X Window System](https://en.wikipedia.org/wiki/X_Window_System)
+
+    The X Window System (X11, or simply X) is a windowing system for bitmap displays, common on Unix-like operating systems.
+
+command execute and use output as param
+
+![](2020-10-06-14-21-02.png)
 
 
 <!-- archive - muliple files to single

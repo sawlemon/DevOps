@@ -237,7 +237,7 @@ command execute and use output as param
 
 ![](2020-10-06-14-21-02.png)
 
-## [what does <<< mean ?](https://unix.stackexchange.com/questions/80362/what-does-mean)
+## [what does <<< mean ? - Here String ](https://unix.stackexchange.com/questions/80362/what-does-mean)
 
 
 <!-- archive - muliple files to single

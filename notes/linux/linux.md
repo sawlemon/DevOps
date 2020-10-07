@@ -243,6 +243,12 @@ command execute and use output as param
 
 ![](heredoc.png)
 
+## Shell Script Headers
+
+[Shell Guide - used by googlers](https://google.github.io/styleguide/shellguide.html)
+
+[Shell scripting with bash for Linux admin](https://www.pluralsight.com/guides/shell-scripting-with-bash-for-linux-administration-part-1)
+
 
 <!-- archive - muliple files to single
 

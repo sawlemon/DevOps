@@ -241,6 +241,9 @@ command execute and use output as param
 
 [Here Document](https://en.wikipedia.org/wiki/Here_document#Unix_shells)
 
+![](heredoc.png)
+
+
 <!-- archive - muliple files to single
 
 tar - cvf c compress verbose f fillename x extract

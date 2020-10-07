@@ -239,6 +239,7 @@ command execute and use output as param
 
 ## [what does <<< mean ? - Here String ](https://unix.stackexchange.com/questions/80362/what-does-mean)
 
+[Here Document](https://en.wikipedia.org/wiki/Here_document#Unix_shells)
 
 <!-- archive - muliple files to single
 

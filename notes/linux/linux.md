@@ -250,6 +250,23 @@ command execute and use output as param
 [Shell scripting with bash for Linux admin](https://www.pluralsight.com/guides/shell-scripting-with-bash-for-linux-administration-part-1)
 
 
+DSA - Digital Signatre Algorithm
+
+RSA - Look Up
+
+https://help.ubuntu.com/community/SSH/OpenSSH/Keys
+
+
+[Netsted Command Substitution](https://docstore.mik.ua/orelly/unix/upt/ch45_31.htm)
+
+
+[Sub Shells](https://tldp.org/LDP/abs/html/subshells.html)
+
+[Bash: setting and replacing values in a properties file use sed](https://fabianlee.org/2019/10/05/bash-setting-and-replacing-values-in-a-properties-file-use-sed/)
+
+
+
+
 <!-- archive - muliple files to single
 
 tar - cvf c compress verbose f fillename x extract

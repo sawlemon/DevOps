@@ -20,7 +20,6 @@ Multiline comment with cat
 Comment on the top
 
 
-
 passwordless ssh for sudo
 
 https://askubuntu.com/questions/115151/how-to-set-up-passwordless-ssh-access-for-root-user

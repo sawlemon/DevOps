@@ -265,6 +265,14 @@ https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 [Bash: setting and replacing values in a properties file use sed](https://fabianlee.org/2019/10/05/bash-setting-and-replacing-values-in-a-properties-file-use-sed/)
 
 
+[Difference Between apt and apt-get Explained](https://itsfoss.com/apt-vs-apt-get-difference/)
+
+    Debian uses a set of tools called Advanced Packaging Tool (APT) to manage this packaging system. Don’t confuse it with the command apt, it’s not the same.
+
+
+[Sudoers-syntax](https://toroid.org/sudoers-syntax)
+
+![](2020-10-09-10-58-02.png)
 
 
 <!-- archive - muliple files to single
@@ -296,7 +304,7 @@ Create folder tree in single command
 `cp -r  <source-folder-tree> <destination>`
 
 
-`curl <link of the file> -O`
+`curl <link of the file> -O` 
 
 -O to save the file, else it just prints out
 

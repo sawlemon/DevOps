@@ -7,6 +7,12 @@ List
     list.sort modifies the list being sorted
     x = sorted(list) creates a new sorted list 
 
+    Unpacking
+    a, b, *other, d = [1,2,3,4,5]
+    # a = 1, b= 2, other = [3,4] d = 5
+
+
+
 Dictionary
 
     Instead of using dictionary['key'] use dictionary.get['key',default_value], because if a key is not found it doesn't throw error instead returns None or default value
@@ -26,6 +32,15 @@ DocStrings
     magic method
 
         print(funcname.__doc__) also prints
+
+Arguments vs Parameters
+
+    #parameter
+    def greet(name,age):
+        print(f'Hello {name} of {age} years old')
+
+    #argument
+    greet('steve',20)
 
 
 @classmethod

@@ -2,6 +2,11 @@
 
 [Python CheatSheet](https://github.com/aneagoie/ztm-python-cheat-sheet)
 
+List
+
+    list.sort modifies the list being sorted
+    x = sorted(list) creates a new sorted list 
+
 Dictionary
 
     Instead of using dictionary['key'] use dictionary.get['key',default_value], because if a key is not found it doesn't throw error instead returns None or default value

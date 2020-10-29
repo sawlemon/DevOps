@@ -274,6 +274,10 @@ https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 
 ![](2020-10-09-10-58-02.png)
 
+[Passwordless SSH into Remote Machine](https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/)
+
+`ssh-keygen -t rsa`
+`ssh-copy-id -i ~/.ssh/id_rsa user@remote`
 
 <!-- archive - muliple files to single
 

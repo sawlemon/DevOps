@@ -11,7 +11,7 @@ A container is nothing but a running process, with some added encapsulation feat
 Each container interacts with its own private filesystem; this filesystem is provided by a Docker image
 
 
-## Image
+## Image    
 
 An image includes everything needed to run an application - the code or binary, runtimes, dependencies, and any other filesystem objects required.
 
@@ -72,3 +72,32 @@ creates a folder in `/var/lib/docker/volumes/<volume-name>`
 newer method 
 
 `docker run --mount type=bind,source=/path/in/local/system, target=/path/in/container container-name:tag`
+
+
+[Docker Mysql](https://dev.mysql.com/doc/refman/8.0/en/docker-mysql-more-topics.html)
+
+## Docker Proxy Issues
+
+    setting proxying in home network where no proxy has been setup  , linux or windows or mac, proxy is same accross everywhere like internet…
+    #curl https://registry-1.docker.io/v2/ 336 to see can get respose and setup credentials…
+    ubuntu@ubuntuserver:~$ docker pull hello-world
+    Using default tag: latest
+    Error response from daemon: Get https://registry-1.docker.io/v2/: 137 net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+    ubuntu@ubuntuserver:~$ cat /etc/systemd/system/docker.service.d/http-proxy.conf
+    cat: /etc/systemd/system/docker.service.d/http-proxy.conf: No such file or directory
+    ubuntu@ubuntuserver:~$ sudo nano /etc/resolv.conf
+    #add these lines on top and above one for home router…
+    nameserver 8.8.8.8
+    nameserver 8.8.4.4
+    ubuntu@ubuntuserver:~$ sudo systemctl daemon-reload #THIS IS RESCUE COMMAND…
+    ubuntu@ubuntuserver:~$ sudo systemctl restart docker
+    ubuntu@ubuntuserver:~$ sudo systemctl status docker
+    ubuntu@ubuntuserver:~$ docker pull hello-world
+    Using default tag: latest
+    latest: Pulling from library/hello-world
+    5b0f327be733: Pull complete
+    Digest: sha256:07d5f7800dfe37b8c2196c7b1c524c33808ce2e0f74e7aa00e603295ca9a0972
+    Status: Downloaded newer image for hello-world:latest
+    ubuntu@ubuntuserver:~$ docker run hello-world
+    Hello from Docker!
+    This message shows that your installation appears to be working correctly.

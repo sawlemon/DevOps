@@ -25,7 +25,7 @@ An image includes everything needed to run an application - the code or binary, 
 
 `docker run -p 80:80 -it -d container-name:version`
 
-`docker exec 'container_name' <command-to-run>`
+`docker exec <container_name> <command-to-run>`
 
 **Dockerfile**
 ## [Docker File Builder](https://docs.docker.com/engine/reference/builder/)

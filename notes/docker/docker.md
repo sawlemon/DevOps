@@ -130,3 +130,15 @@ List Services
 `docker network create -d overlay my-overlay`
 
 `docker stack depluy -c <yml-file> <stack-name>`
+
+## Docker Swarm
+
+![](2020-11-06-15-48-47.png)
+
+[Fault Tolerance](https://docs.docker.com/engine/swarm/admin_guide/#add-manager-nodes-for-fault-tolerance)
+
+![](2020-11-06-15-49-43.png)
+
+`docker network inspect <network-name>`
+
+

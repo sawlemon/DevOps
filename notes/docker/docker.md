@@ -101,3 +101,32 @@ newer method
     ubuntu@ubuntuserver:~$ docker run hello-world
     Hello from Docker!
     This message shows that your installation appears to be working correctly.
+
+
+# Docker Swarm
+
+`docker swarm init`
+
+`dockeer swarm join-token worker`
+
+To list the nodes
+`docker node ls`
+
+List containers in nodes
+`docker node ps`
+
+
+`docker stack deploy -c <compose-file> <name>`
+
+
+List Services
+`docker service ls `
+
+`docker stack services ls`
+
+
+![](2020-11-05-12-14-20.png)
+
+`docker network create -d overlay my-overlay`
+
+`docker stack depluy -c <yml-file> <stack-name>`

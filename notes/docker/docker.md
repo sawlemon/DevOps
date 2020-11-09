@@ -156,3 +156,9 @@ List Services
 
     CMD - default command, gets replaced if argument is passed
     ENTRYPOINT - Runs whenever a container is executed
+
+    Eg:
+    ENTRYPOINT sleep
+    CMD 5
+
+    when running thsi container if 10 is passed as parameter the system sleeps for 10 secs, if no args passed , it sleeps for 5 sec

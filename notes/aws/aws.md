@@ -4,6 +4,8 @@
 
 **subnet is mandatory**
 
+https://youtu.be/rQvl-V3tLiQ
+
 A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud
 
 
@@ -54,3 +56,17 @@ A Dedicated Host is also a physical server that's dedicated for your use. With a
 **public IPv4 address or an Elastic IP address**
 
 An Elastic IP address is a static IPv4 address associated with your AWS account in a specific Region.
+
+
+## [EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html)
+    
+*The volume and instance must be in the same Availability Zone.*
+
+    Elastic Block Store
+
+
+Load Balancer
+
+[AWS - ALB - Application Load Balancer - Setup & DEMO - Differences from Classic ELB](https://youtu.be/OKnd03nxu3k)
+
+[AWS ELB Tutorial | Elastic Load Balancer Tutorial | AWS Tutorial | AWS Training Video | Simplilearn](https://youtu.be/YO4L_9poF3g)

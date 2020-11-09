@@ -142,3 +142,17 @@ List Services
 `docker network inspect <network-name>`
 
 
+[Connecting docker container on multiple hosts](https://goldmann.pl/blog/2014/01/21/connecting-docker-containers-on-multiple-hosts/)
+
+
+[Using Multi-Host and Overlay networking with Docker](https://www.aerospike.com/docs/deploy_guides/docker/networking/)
+
+
+[ADD Vs COPY](https://stackoverflow.com/questions/24958140/what-is-the-difference-between-the-copy-and-add-commands-in-a-dockerfile)
+
+    ADD can be source link, but COPY can only refer to a local file
+
+[ENTRYPOINT Vs CMD](https://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint/)
+
+    CMD - default command, gets replaced if argument is passed
+    ENTRYPOINT - Runs whenever a container is executed

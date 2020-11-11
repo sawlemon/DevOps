@@ -80,6 +80,11 @@ Load Balancer
 
 ![](2020-11-11-15-09-27.png)
 
+![](2020-11-11-15-13-44.png)
+
+Block Sorage vs Object
+![](clockvsobj.png)
+
 [Peer with a VPC in another Account](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/peer-with-vpc-in-another-account.html)
 
 [Aws Cloud Formation Templates](https://github.com/awslabs/aws-cloudformation-templates/blob/master/community/services/VPC/vpc_template.json)

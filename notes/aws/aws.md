@@ -77,6 +77,7 @@ Load Balancer
    EBS is only accessible from a single EC2 instance in your particular AWS region 
    
    EFS allows you to mount the file system across multiple regions and instances
+![](perfvs/.png)
 
 ![](2020-11-11-15-09-27.png)
 

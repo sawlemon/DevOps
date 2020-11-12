@@ -1,4 +1,6 @@
-[aws docs VPCs and subnets](https://github.com/awsdocs/amazon-vpc-user-guide/blob/master/doc_source/VPC_Subnets.md#vpc-subnet-basics)
+**In aws free tier account beware of NAT Gateway - It's expensive**
+
+[Aws docs VPCs and subnets](https://github.com/awsdocs/amazon-vpc-user-guide/blob/master/doc_source/VPC_Subnets.md#vpc-subnet-basics)
 
 ## [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html)
 

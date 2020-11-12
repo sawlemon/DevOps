@@ -6,6 +6,8 @@
 
 https://youtu.be/rQvl-V3tLiQ
 
+[VPC Demo Edureka](https://youtu.be/UmoxXK_42aU)**
+
 A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud
 
 

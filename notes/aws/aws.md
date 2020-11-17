@@ -1,6 +1,11 @@
 **In aws free tier account beware of NAT Gateway - It's expensive**
 **1 GB of EBS per month, Do not create AMI's or save snapshots**
   
+[What is Cloud Computing](https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/)
+![](2020-11-16-14-55-47.png)
+
+[aws core services](https://www.aws.training/Details/eLearning?id=29700)
+
 [Aws docs VPCs and subnets](https://github.com/awsdocs/amazon-vpc-user-guide/blob/master/doc_source/VPC_Subnets.md#vpc-subnet-basics)
 
 ## [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html)
@@ -98,10 +103,23 @@ Block Sorage vs Object
 
 [S3 Buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html#BasicsBucket)
 
-
-
-
 [Restricting Access to Amazon S3 Content by Using an Origin Access Identity](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html#private-content-creating-oai-console)
 
 
 [Serving private content with signed URLs and signed cookies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html)
+
+[Gateway VPC endpoints](https://docs.aws.amazon.com/vpc/latest/userguide/vpce-gateway.html)
+
+## Cloud Trails
+[What Is AWS CloudTrail?](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)
+
+## Elastic Beanstalk
+
+[AWS Elastic Beanstalk Documentation](https://docs.aws.amazon.com/elastic-beanstalk/index.html)
+
+    Platform as a service
+
+Other Paas
+![](pass.png)
+
+[Tutorial: Log the State of an Amazon EC2 Instance Using CloudWatch Events](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/LogEC2InstanceState.html)

@@ -6,7 +6,14 @@
 
 [aws core services](https://www.aws.training/Details/eLearning?id=29700)
 
+[AWS Networking Fundamentals](https://youtu.be/hiKPPy584Mg)
+
+
 [Aws docs VPCs and subnets](https://github.com/awsdocs/amazon-vpc-user-guide/blob/master/doc_source/VPC_Subnets.md#vpc-subnet-basics)
+
+[AWS Foundations: Getting Started with the AWS Cloud Essentials](https://www.aws.training/Details/Video?id=49639)
+![](instancetype.png)
+
 
 ## [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html)
 
@@ -123,3 +130,9 @@ Other Paas
 ![](pass.png)
 
 [Tutorial: Log the State of an Amazon EC2 Instance Using CloudWatch Events](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/LogEC2InstanceState.html)
+
+
+## aws RDS - Relational Database Service
+
+[Amazon Relational Database Service (Amazon RDS)](https://youtu.be/igRfulrrYCo)
+

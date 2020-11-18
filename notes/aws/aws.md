@@ -136,3 +136,21 @@ Other Paas
 
 [Amazon Relational Database Service (Amazon RDS)](https://youtu.be/igRfulrrYCo)
 
+## Amazon Aurora
+
+[Amazon AURORA Explained | How does Aurora work? Visual Explanation](https://youtu.be/3DClteE-AUc)
+
+## Aws Security Fundamentals
+
+[AWS Security Fundamentals - Introduction to Cloud Computing and AWS Security](https://www.aws.training/Details/eLearning?id=10796)
+
+![](2020-11-18-13-56-19.png)
+
+Compute Isolation
+![](2020-11-18-13-58-10.png)
+
+[Linux AMI virtualization types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/virtualization_types.html)
+
+
+## Aws Dash Services
+[Dash Services](https://developer.amazon.com/dash-services)

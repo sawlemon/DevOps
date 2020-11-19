@@ -153,4 +153,9 @@ Compute Isolation
 
 
 ## Aws Dash Services
-[Dash Services](https://developer.amazon.com/dash-services)
+[Dash Services](https://developer.amazon.com/dash-services)Best Practices for Public Sector AWS Security Posture
+
+## Securing AWS
+
+[Best Practices for Public Sector AWS Security Posture](https://youtu.be/07V7oId_kLA)
+

@@ -81,6 +81,11 @@ An Elastic IP address is a static IPv4 address associated with your AWS account 
 
     Elastic Block Store
 
+VPC Endpoint
+  - conect within aws (only available with s3 for now) a connection from private instance to an s3 bucket without nat. 
+
+![](vpcendpoint.png)
+
 
 Load Balancer
 
@@ -159,3 +164,5 @@ Compute Isolation
 
 [Best Practices for Public Sector AWS Security Posture](https://youtu.be/07V7oId_kLA)
 
+NACL's Vs Security Group
+  - stateless - stateful

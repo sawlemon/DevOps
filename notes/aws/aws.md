@@ -2,6 +2,7 @@
 **1 GB of EBS per month, Do not create AMI's or save snapshots**
   
 [What is Cloud Computing](https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/)
+
 ![](2020-11-16-14-55-47.png)
 
 [aws core services](https://www.aws.training/Details/eLearning?id=29700)
@@ -33,19 +34,13 @@ Availability Zones are multiple, isolated locations within each Region.
 ![](2020-10-02-23-49-11.png)
 
 
-
 1. An internet gateway enables communication over the internet, and a virtual private network (VPN) connection enables communication with your corporate network.
 
 If a subnet's traffic is routed to an internet gateway, the subnet is known as a public subnet
 
-
-
-
 ## [Subnet](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#vpc-subnet-basics)
 
 Range of IP Adresses in the VPC.
-
-
 
 ![](2020-10-02-23-52-05.png)
 
@@ -54,7 +49,6 @@ Range of IP Adresses in the VPC.
 ![](2020-10-03-01-02-31.png)
 
 If you create a VPC or subnet using a command line tool or the Amazon EC2 API, the CIDR block is automatically modified to its canonical form. For example, if you specify 100.68.0.18/18 for the CIDR block, we create a CIDR block of 100.68.0.0/18
-
 
 
 [Tenancy Values]
@@ -85,7 +79,6 @@ VPC Endpoint
   - conect within aws (only available with s3 for now) a connection from private instance to an s3 bucket without nat. 
 
 ![](vpcendpoint.png)
-
 
 ## Load Balancer
 
@@ -168,3 +161,4 @@ Best Practices for Public Sector AWS Security Posture
 
 ## NACL's Vs Security Group
   - stateless - stateful
+

@@ -87,7 +87,7 @@ VPC Endpoint
 ![](vpcendpoint.png)
 
 
-Load Balancer
+## Load Balancer
 
 [AWS - ALB - Application Load Balancer - Setup & DEMO - Differences from Classic ELB](https://youtu.be/OKnd03nxu3k)
 
@@ -105,7 +105,7 @@ Load Balancer
 
 ![](2020-11-11-15-13-44.png)
 
-Block Sorage vs Object
+## Block Sorage vs Object
 ![](clockvsobj.png)
 
 [Peer with a VPC in another Account](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/peer-with-vpc-in-another-account.html)

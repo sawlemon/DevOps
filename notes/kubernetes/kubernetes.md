@@ -5,5 +5,42 @@
 
 [Kubernetes Tutorial for Beginners](https://youtu.be/X48VuDVv0do)
 
+## Commands
+
+After Setting up the cluster
+
+Creating a Pod
+
+`kubectl run <pod-name> (nginx-pod) --image=<docker-image-name> (nginx)`  
+
+`kubectl get pods -o wide`
+
+`kubectl describe pod <pod-name>`
+
+Create Components from yaml file
+
+`kubectl create -f file.yml` or `kubectl apply -f filename.yaml`
+
+Generate a base template with kubectl
+
+`kubectl run <pod-name> --image=<image-name> --dry-run=client -o yaml > template.yaml`
+
+
+Edit a Pod
+
+`kubectl edit pod <pod-name>`
+
+`kubectl replace -f filename.yaml`
+
+## Scale
+`kubectl scale --replicas=6 replica-set-file.yml`
+
+`kubectl scale --replicas=6 replicaset[type] myapp-replica[name of replicaset created already]`
+
+`kubectl edit replicaset <replica-set-name>` modify the replicas value.
+
+## Rolling Updates
+  -  If there is a cluster of servers, Upgrading all at once cvauses a downtime. Hence roll the updates in batches.
+
 
 

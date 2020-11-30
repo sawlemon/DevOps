@@ -5,6 +5,16 @@
 
 [Kubernetes Tutorial for Beginners](https://youtu.be/X48VuDVv0do)
 
+## [Components](https://kubernetes.io/docs/concepts/overview/components)
+
+![](kubernetes-components.png)
+
+Pod
+  -  abstraction over a container
+  -  In Kubernetes, a Pod represents a set of running containers on your cluster.
+
+
+
 ## Commands
 
 After Setting up the cluster

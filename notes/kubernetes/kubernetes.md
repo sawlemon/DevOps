@@ -42,6 +42,11 @@ Edit a Pod
 
 `kubectl replace -f filename.yaml`
 
+## Delete
+`kubectl delete <component> <component-name>`
+
+`kubectl delete -f <file-name>.yaml`
+
 ## Scale
 `kubectl scale --replicas=6 replica-set-file.yml`
 
@@ -52,5 +57,9 @@ Edit a Pod
 ## Rolling Updates
   -  If there is a cluster of servers, Upgrading all at once cvauses a downtime. Hence roll the updates in batches.
 
+## Logs
+`kubectl logs <pod-name>`
 
+## ineracti with container
+`kubectl exec -it <pod-name> -- /bin/bash`
 

@@ -21,9 +21,12 @@ After Setting up the cluster
 
 Creating a Pod
 
-`kubectl run <pod-name> (nginx-pod) --image=<docker-image-name> (nginx)`  
+`kubectl run <pod-name> (nginx-pod) --image=<docker-image-name> (nginx)`
+*creates a deployment- not just a pod*
 
 `kubectl get pods -o wide`
+
+`kubectl get pods --watch`
 
 `kubectl describe pod <pod-name>`
 
@@ -57,9 +60,26 @@ Edit a Pod
 ## Rolling Updates
   -  If there is a cluster of servers, Upgrading all at once cvauses a downtime. Hence roll the updates in batches.
 
+![](rolling-update.png)
+
+*default behaviour in K8*
+
+`kubectl apply -f <deployment file>`
+
+![](2020-12-01-13-27-44.png)
+
+## Rollback
+
+`kubectl rollout undo <deployment-name>`
+
 ## Logs
 `kubectl logs <pod-name>`
 
-## ineracti with container
+## interacting with container
 `kubectl exec -it <pod-name> -- /bin/bash`
 
+## Kubeadm Join token generate command
+`kubeadm token create --print-join-command`
+
+## Flannel - CNI
+`kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml`

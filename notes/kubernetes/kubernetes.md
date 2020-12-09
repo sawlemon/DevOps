@@ -83,3 +83,9 @@ Edit a Pod
 
 ## Flannel - CNI
 `kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml`
+
+## RBAC
+
+[Effective RBAC - Jordan Liggitt, Red Hat ](https://youtu.be/Nw1ymxcLIDI)
+
+[KUBERNETES AND RBAC: RESTRICT USER ACCESS TO ONE NAMESPACE](https://jeremievallee.com/2018/05/28/kubernetes-rbac-namespace-user.html)

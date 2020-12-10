@@ -15,3 +15,6 @@
 
 [ansible.builtin.user – Manage user accounts](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/user_module.html)
 
+
+[Rapidly Build & Test Ansible Roles with Molecule + Docker](https://youtu.be/DAnMyBZ8-Qs)
+

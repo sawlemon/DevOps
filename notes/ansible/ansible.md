@@ -18,3 +18,10 @@
 
 [Rapidly Build & Test Ansible Roles with Molecule + Docker](https://youtu.be/DAnMyBZ8-Qs)
 
+
+[Working with dynamic inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_dynamic_inventory.html)
+
+[Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
+
+[Developing and Testing Ansible Roles with Molecule and Podman - Part 2](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-2)
+

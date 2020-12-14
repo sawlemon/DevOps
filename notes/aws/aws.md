@@ -168,3 +168,6 @@ Best Practices for Public Sector AWS Security Posture
 ![](serverless-infra.png)
 
 [AWS re:Invent 2019: [REPEAT 2] I didn’t know Amazon API Gateway did that (SVS212-R2)](https://youtu.be/yfJZc3sJZ8E)
+
+[What is Amazon API Gateway?](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html)
+

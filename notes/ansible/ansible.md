@@ -25,3 +25,5 @@
 
 [Developing and Testing Ansible Roles with Molecule and Podman - Part 2](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-2)
 
+[Testing Strategies](https://docs.ansible.com/ansible/latest/reference_appendices/test_strategies.html)
+

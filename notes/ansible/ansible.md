@@ -1,5 +1,7 @@
 ## Ansible
 
+[How To Install and Configure Ansible Tower on CentOS 7 / RHEL 7/8](https://computingforgeeks.com/install-and-configure-ansible-tower-on-centos-rhel/)
+
 [How to use Ansible to deploy your Website](https://www.serverlab.ca/tutorials/dev-ops/automation/how-to-use-ansible-to-deploy-your-website/)
 
 
@@ -27,3 +29,4 @@
 
 [Testing Strategies](https://docs.ansible.com/ansible/latest/reference_appendices/test_strategies.html)
 
+[Getting Started with Ansible and Dynamic Amazon EC2 Inventory Management](https://aws.amazon.com/blogs/apn/getting-started-with-ansible-and-dynamic-amazon-ec2-inventory-management/)

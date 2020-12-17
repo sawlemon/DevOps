@@ -175,3 +175,6 @@ Best Practices for Public Sector AWS Security Posture
 
 
 [Creating a Lambda REQUEST authorizer function](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api-lambda-auth.html)
+
+[Building Real Time Applications using WebSocket APIs Supported by Amazon API Gateway](https://youtu.be/3SCdzzD0PdQ)
+![](websocketlimits.png)

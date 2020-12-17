@@ -30,3 +30,10 @@
 [Testing Strategies](https://docs.ansible.com/ansible/latest/reference_appendices/test_strategies.html)
 
 [Getting Started with Ansible and Dynamic Amazon EC2 Inventory Management](https://aws.amazon.com/blogs/apn/getting-started-with-ansible-and-dynamic-amazon-ec2-inventory-management/)
+
+
+Ansible Tower
+
+[Ansible Tower overview | Ec2 Instance ping test | simple playbook execution](https://youtu.be/_YoMHt8WzHk)
+
+![](ansible_ping_success.png)

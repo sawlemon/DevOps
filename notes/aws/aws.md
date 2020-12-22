@@ -182,9 +182,26 @@ https://github.com/aws-samples/simple-websockets-chat-app
 ![](websocketlimits.png)
 
 
+Aws Chatbot
+[Getting started with Amazon Lex](https://aws.amazon.com/lex/getting-started/?nc=sn&loc=4)
+
+
+[AWS Amplify - Fastest, easiest way to build mobile and web apps that scale](https://aws.amazon.com/amplify/)
+
+## Aws Config
 
 [What Is AWS Config?](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html)
 
   AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past so that you can see how the configurations and relationships change over time.
 
+
+[AWS Config - Rules, Resources & Timelines with DEMO | IMPORTANT Security Service](https://youtu.be/BoHJVGzq-58)
+
+[Simplify Custom Rule Creation Using the AWS Config Rule Development Kit](https://youtu.be/7Iao8SR9Czg)
+
+https://github.com/awslabs/aws-config-rdk
+
+https://github.com/awslabs/aws-config-rules/tree/master/python
+
+[Getting Started with Custom Rules for AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_develop-rules_getting-started.html)
 

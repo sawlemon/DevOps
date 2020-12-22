@@ -197,6 +197,9 @@ Aws Chatbot
 
 [AWS Config - Rules, Resources & Timelines with DEMO | IMPORTANT Security Service](https://youtu.be/BoHJVGzq-58)
 
+### Managed Rules Templates
+http://s3.amazonaws.com/aws-configservice-us-east-1/cloudformation-templates-for-managed-rules/EC2_MANAGEDINSTANCE_ASSOCIATION_COMPLIANCE_STATUS_CHECK.template
+
 [Simplify Custom Rule Creation Using the AWS Config Rule Development Kit](https://youtu.be/7Iao8SR9Czg)
 
 https://github.com/awslabs/aws-config-rdk
@@ -204,4 +207,12 @@ https://github.com/awslabs/aws-config-rdk
 https://github.com/awslabs/aws-config-rules/tree/master/python
 
 [Getting Started with Custom Rules for AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_develop-rules_getting-started.html)
+
+[What is AWS Glue?](https://youtu.be/qgWMfNSN9f4)
+  Extract Transform and Load
+
+[AWS Athena Overview - Key Concepts | Serverless Interactive Query Service](https://youtu.be/UwnRi4ZDJEk)
+
+[AWS Athena Tutorial l Athena Hands On LAB | Athena + Glue + S3 Data Lake | Athena AWS Tutorials](https://youtu.be/8VOf1PUFE0I)
+
 

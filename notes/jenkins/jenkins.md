@@ -5,8 +5,22 @@
 
 *Install java and then install Jenkins*
 
+or simpl go for docker image
+
+[Official Jenkins Docker image](https://github.com/jenkinsci/docker/blob/master/README.md)
+
+    docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+
 [Jenkins Full Course | Jenkins Tutorial For Beginners | Jenkins Tutorial | Simplilearn](https://youtu.be/FX322RVNGj4)
+
+
+## Plugins
 
 [Plugins Index](https://plugins.jenkins.io/)
 
 ![](2020-12-18-13-23-05.png)
+
+
+
+[LDAP](https://plugins.jenkins.io/ldap/)
+

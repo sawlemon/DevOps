@@ -216,3 +216,12 @@ https://github.com/awslabs/aws-config-rules/tree/master/python
 [AWS Athena Tutorial l Athena Hands On LAB | Athena + Glue + S3 Data Lake | Athena AWS Tutorials](https://youtu.be/8VOf1PUFE0I)
 
 
+[Serverless-Deployment](https://github.com/1CloudHub/Serverless-Deployment)
+
+  AWS CloudFormation template creates the following resources in AWS account.
+
+  -  Amazon S3 bucket to store the raw data
+  - Glue Connection to connect source database
+  - Glue Crawler and Glue Jobs
+  - IAM roles for accessing AWS Glue and Amazon S3
+

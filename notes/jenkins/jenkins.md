@@ -27,3 +27,12 @@ or simpl go for docker image
 [Role-based Authorization Strategy](https://plugins.jenkins.io/role-strategy/)
 
 
+[Credentials](https://plugins.jenkins.io/credentials/)
+
+[Deploy to container](https://plugins.jenkins.io/deploy/)
+
+[Blue Ocean for Jenkins Pipelines](https://www.jenkins.io/projects/blueocean/)
+    Different UI in Jenkins
+
+
+    

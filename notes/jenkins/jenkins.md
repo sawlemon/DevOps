@@ -24,3 +24,6 @@ or simpl go for docker image
 
 [LDAP](https://plugins.jenkins.io/ldap/)
 
+[Role-based Authorization Strategy](https://plugins.jenkins.io/role-strategy/)
+
+

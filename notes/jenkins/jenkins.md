@@ -34,6 +34,8 @@ or simpl go for docker image
 [Blue Ocean for Jenkins Pipelines](https://www.jenkins.io/projects/blueocean/)
     Different UI in Jenkins
 
+[GitHub Integration](https://plugins.jenkins.io/github-pullrequest/)
+
 
 [Integrate with GitHub: build after each commit (Get started with Jenkins, part 13)](https://youtu.be/Z3S2gMBUkBo)    
 

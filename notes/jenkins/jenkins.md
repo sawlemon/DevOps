@@ -35,4 +35,5 @@ or simpl go for docker image
     Different UI in Jenkins
 
 
-    
+[Integrate with GitHub: build after each commit (Get started with Jenkins, part 13)](https://youtu.be/Z3S2gMBUkBo)    
+

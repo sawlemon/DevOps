@@ -40,3 +40,7 @@ or simply go for docker image
 [Integrate with GitHub: build after each commit (Get started with Jenkins, part 13)](https://youtu.be/Z3S2gMBUkBo)    
 
 [30 Jenkins features and plugins you wished you had known about before! by Joep Weijers](https://youtu.be/6BIry0cepz4)
+
+[Complete Jenkins Pipeline Tutorial | Jenkinsfile explained](https://youtu.be/7KCS70sCoK0)
+
+

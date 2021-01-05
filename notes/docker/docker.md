@@ -27,6 +27,10 @@ An image includes everything needed to run an application - the code or binary, 
 
 `docker exec <container_name> <command-to-run>`
 
+Run as root user inside a container
+
+` docker exec -u 0 -it <container_name>  <command>`
+
 **Dockerfile**
 ## [Docker File Builder](https://docs.docker.com/engine/reference/builder/)
     List of commands to use inside docker build file

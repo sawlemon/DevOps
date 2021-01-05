@@ -5,7 +5,7 @@
 
 *Install java and then install Jenkins*
 
-or simpl go for docker image
+or simply go for docker image
 
 [Official Jenkins Docker image](https://github.com/jenkinsci/docker/blob/master/README.md)
 
@@ -39,3 +39,4 @@ or simpl go for docker image
 
 [Integrate with GitHub: build after each commit (Get started with Jenkins, part 13)](https://youtu.be/Z3S2gMBUkBo)    
 
+[30 Jenkins features and plugins you wished you had known about before! by Joep Weijers](https://youtu.be/6BIry0cepz4)

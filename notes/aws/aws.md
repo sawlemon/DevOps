@@ -225,3 +225,4 @@ https://github.com/awslabs/aws-config-rules/tree/master/python
   - Glue Crawler and Glue Jobs
   - IAM roles for accessing AWS Glue and Amazon S3
 
+[Uploading objects using presigned URLs](https://docs.aws.amazon.com/AmazonS3/latest/dev/PresignedUrlUploadObject.html)

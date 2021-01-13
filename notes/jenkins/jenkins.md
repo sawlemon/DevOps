@@ -42,3 +42,6 @@ or simply go for docker image
 [30 Jenkins features and plugins you wished you had known about before! by Joep Weijers](https://youtu.be/6BIry0cepz4)
 
 [Complete Jenkins Pipeline Tutorial | Jenkinsfile explained](https://youtu.be/7KCS70sCoK0)
+
+[Set Up a Jenkins Build Server -AWS ](https://d1.awsstatic.com/Projects/P5505030/aws-project_Jenkins-build-server.pdf)
+

@@ -226,3 +226,8 @@ https://github.com/awslabs/aws-config-rules/tree/master/python
   - IAM roles for accessing AWS Glue and Amazon S3
 
 [Uploading objects using presigned URLs](https://docs.aws.amazon.com/AmazonS3/latest/dev/PresignedUrlUploadObject.html)
+
+
+[What is AWS Organizations?](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html)
+
+[Service control policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html)

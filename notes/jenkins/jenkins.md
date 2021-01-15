@@ -9,7 +9,7 @@ or simply go for docker image
 
 [Official Jenkins Docker image](https://github.com/jenkinsci/docker/blob/master/README.md)
 
-    docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+    docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 
 [Jenkins Full Course | Jenkins Tutorial For Beginners | Jenkins Tutorial | Simplilearn](https://youtu.be/FX322RVNGj4)
 
@@ -45,3 +45,7 @@ or simply go for docker image
 
 [Set Up a Jenkins Build Server -AWS ](https://d1.awsstatic.com/Projects/P5505030/aws-project_Jenkins-build-server.pdf)
 
+[Pipeline: AWS Steps](https://plugins.jenkins.io/pipeline-aws/)
+
+[Jenkins Master to Launch AWS EC2 instances as Slaves using EC2 plugin](https://youtu.be/1XI9_4umWVk)
+ 

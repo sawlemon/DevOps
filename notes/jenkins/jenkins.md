@@ -49,3 +49,12 @@ or simply go for docker image
 
 [Jenkins Master to Launch AWS EC2 instances as Slaves using EC2 plugin](https://youtu.be/1XI9_4umWVk)
  
+[Run bash command on jenkins pipeline](https://stackoverflow.com/questions/44330148/run-bash-command-on-jenkins-pipeline)
+
+    stage('Setting the variables values') {
+        steps {
+            sh '''#!/bin/bash
+                    echo "hello world" 
+            '''
+            }
+    }

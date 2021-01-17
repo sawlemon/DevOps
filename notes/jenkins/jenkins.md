@@ -58,3 +58,14 @@ or simply go for docker image
             '''
             }
     }
+
+[command not found from Jenkins Execute Shell](https://stackoverflow.com/questions/46199123/command-not-found-from-jenkins-execute-shell#:~:text=Add%20the%20path%20to%20the,%3E%20Configure%20System%2C%20Global%20Properties.&text=Call%20the%20eb%20command%20with%20its%20fully%20qualified%20path.)
+
+    
+    Your Jenkins setup has a different path than the user you logged in with.
+
+    There are two solutions:
+
+    Add the path to the executable in the PATH environment variable. Use where eb to find the correct path. Then in Jenkins, click on Manage Jenkins -> Configure System, Global Properties. Check Environment Variables. Set Name to PATH. Set Value to $PATH:/path/to/eb. Then restart Jenkins.
+
+    Call the eb command with its fully qualified path.

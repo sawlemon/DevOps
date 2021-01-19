@@ -231,3 +231,6 @@ https://github.com/awslabs/aws-config-rules/tree/master/python
 [What is AWS Organizations?](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html)
 
 [Service control policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html)
+
+[AWS Organization SCP - Service Control Policy DEMO | Blacklist & Whitelist strategy](https://youtu.be/_50P0o14Ul0)
+

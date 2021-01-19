@@ -69,3 +69,6 @@ or simply go for docker image
     Add the path to the executable in the PATH environment variable. Use where eb to find the correct path. Then in Jenkins, click on Manage Jenkins -> Configure System, Global Properties. Check Environment Variables. Set Name to PATH. Set Value to $PATH:/path/to/eb. Then restart Jenkins.
 
     Call the eb command with its fully qualified path.
+
+[Jenkins - Build & Publish Docker Images](https://youtu.be/6tcoRIPBd8s)
+

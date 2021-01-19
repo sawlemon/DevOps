@@ -134,7 +134,12 @@ Other Paas
 
 ## aws RDS - Relational Database Service
 
+[Getting Started with Amazon RDS - Relational Database Service on AWS](https://youtu.be/knrNBkr5iTM)
+
 [Amazon Relational Database Service (Amazon RDS)](https://youtu.be/igRfulrrYCo)
+
+[AWS Tutorial - Launch a RDS MySQL instance and connect to it using Linux EC2](https://youtu.be/xzCgeRxSzy4)
+![](rds-mysql-connectionstring.png)
 
 ## Amazon Aurora
 

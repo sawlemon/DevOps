@@ -141,10 +141,6 @@ To create a symbolic Link
 
 `ln -s target_path link_path`
 
-
-
-
-
 ### [Cron](https://en.wikipedia.org/wiki/Cron)
 
     Job Scheduler
@@ -336,3 +332,10 @@ YUM is a High Level Package manager that overcomes this problem.
 yum uses rpm to install packages
 
 repo info is stored at `/etc/yum.repos.d`
+
+Using chmod with Absolute Permissions
+![](chmod_values.png)
+
+    1 - Execute 
+    2 - Write
+    4 - Read

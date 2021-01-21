@@ -94,8 +94,6 @@ why difference ??
     tenet - not secure - port 23
     ssh - secure public key encryption   - port 22
 
-
-
 `truncate`
 
     shrink or exppand a file for specific size
@@ -103,7 +101,6 @@ why difference ??
 files greater than specific size
 
 `find . -size +10k -ls`
-
 
 NAT vs Proxy
 
@@ -153,8 +150,6 @@ To create a symbolic Link
     Extended Arguments
 
 [xargs examples](https://www.geeksforgeeks.org/xargs-command-unix/)
-
-
 
 `awk`
 
@@ -277,25 +272,13 @@ https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 `ssh-keygen -t rsa`
 `ssh-copy-id -i ~/.ssh/id_rsa user@remote`
 
-<!-- archive - muliple files to single
+## Archiving Files
 
-tar - cvf c compress verbose f fillename x extract
-z single enc technique 
-tar -tgf g - gzip 
-tar -tgf j - bzip2 -- more speed less compression
-
-tar -x to unzip
-
-tar.gz 
-
-tar.bz2
-
--r folder
- -->
-
----
-
-
+    tar - cvf c compress verbose f fillename x extract
+    z single enc technique 
+    tar -tgf g - gzip 
+    tar -tgf j - bzip2 -- more speed less compression
+    tar -x to unzip
 
 Create folder tree in single command
     
@@ -305,6 +288,7 @@ Create folder tree in single command
 
 `cp -r  <source-folder-tree> <destination>`
 
+Download a file from link
 
 `curl <link of the file> -O` 
 

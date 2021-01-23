@@ -1,7 +1,7 @@
 # Ultimate AWS Certified Cloud Practiotiner - Udemy
 ### Stephaen Mareek
 
-
+---
 ## Section 4 : Identity Access Management
 
 IAM 
@@ -142,7 +142,7 @@ Agility
 			Simple web service
 			Wordpress, magento etc.
 		
-## Section  11 Deployment and Managing Infrastructure at scale
+## Section 11 Deployment and Managing Infrastructure at scale
 
 	Typical Web app 3 tier Architecture
 		
@@ -173,4 +173,106 @@ Agility
 
 ## Section 12 : leveraging the AWS Global Infrastructure 
 	
+	Route 53
+		Global Domain
+			Buying a domain name 
+	
+	Cloud Front
+		Content Delivery Network
+			S3 buckets
+			Http websites
+	
+	Global Accelerator
+		Does not cache, Simply acts as a proxy between edge network and the actual server
+
+## Section 13 : Cloud integrations
+	
+	SQS
+		Simple Queue Service
+			Send messages and Consumers can poll for messages
+				Can Retain messages up to 14days
+			To Decouple the application
+			
+	SNS
+		Simple Notification Service
+			Consumers Subscribes to a topic, and Publisher can send one notification which is pushed to all the subscribers
+	
+## Section 14: Cloud Monitoring
+
+	Cloud Watch Metrics
+		Billing Metrics (only in us-east-1)
+	
+	Cloud Watch Alarm
+		Trigger notifications on a metric
+	
+	Cloud Watch Logs
+		Cloud watch log agent can be installed on ec2 or on premise servers
+		Real-time monitoring of logs
+	
+	Cloud Watch Events
+		Schedule CRON Job
+		Event pattern
+			If a ec2 instance is terminated
+	
+	Event Bridge
+		Logs What happened
+		Same as Cloud Watch Events, but New version
+	
+	Cloud Trail
+		Who did a thing
+		Provides governance, compliance and audit
+		Enabled by default
+	
+	X-Ray
+		Visual Analysis of Application
+		There are lot of services involved in an application, monitoring it with event bridge is difficult, Therefore use X-Ray
+	
+	Service Health Dashboard 
+		status.aws.amazon.com
+		To check whether a service works correctly
+	
+	Personal Health Dashboard
+		phd.aws.amazon.com
+		Only show the health of services that we use
+		
+
+## Section 15 : VPC & Networking
+	
+	Refer slides or videos
+	
+	NACL 
+		Network Access Control List
+			Has Allow and Deny Rules
+			Attached to subnets
+			Only IP address
+	
+	Security Group
+		Only Allow Rules
+		Can be IP or other security groups
+	
+	VPC Endpoint
+		To connect to AWS service using private internet
+		
+		VPC Endpoint Gateway 
+			S3 and DynamoDB
+		VPC Endpoint interface
+			All other AWS Services
+	
+	Site-to-Site VPN
+		Connect On-Premise VPN to AWS
+		Connected through public internet
+	
+	Direct Connect (DX)
+		Physical connection between on-premise and AWS
+		Private Network
+		
+		Customer has CGW (Customer Gate Way)
+		Aws has : VPW (Virtual Private Gateway)
+		
+	Trasnsit Gateway
+		To Perring between VPC's , because VPC peering is transitive (A - B - C means A cannot talk with C )
+
+## Section 16: Security and Compliance
+		
+
 	

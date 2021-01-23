@@ -273,6 +273,5 @@ Agility
 		To Perring between VPC's , because VPC peering is transitive (A - B - C means A cannot talk with C )
 
 ## Section 16: Security and Compliance
-		
 
 	

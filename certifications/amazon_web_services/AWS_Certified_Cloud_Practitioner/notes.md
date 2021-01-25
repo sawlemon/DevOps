@@ -273,5 +273,183 @@ Agility
 		To Perring between VPC's , because VPC peering is transitive (A - B - C means A cannot talk with C )
 
 ## Section 16: Security and Compliance
-
+		
+		DDOS Protection in AWS
+			
+			AWS Shield Standard
+				Free service
+					
+			AWS Shield Advanced
+			
+			WAF
+				Web Application Firewall
+				Filter Incoming request based on rules
+				
+				AWS WAF is a web application firewall that helps protect your web applications or APIs against common web exploits that may affect availability, compromise security, or consume excessive resources.
+				
+			Cloud Front and Route 53
+			
+			
+			
+		AWS KMS
+			Key Management Service
+			AWS manages software for encryption
+			
+			Customer managed CMK - Customer Managed Keys
+			
+			AWS Managed CMK 
+			
+			
+				
+		Cloud HSM
+			AWS provisions encryption hardware
+		
+		AWS Secrets Manager
+			
+			Can integrate with RDS
+			Can automatically rotate key in x days
+			
+		AWS Artifact
+			On-demand access to AWS Compliance documents and AWS agreements, such as PCI, ISO etc ..
 	
+		AWS Guard Duty
+			Intelligent threat discovery mechanism using machine learning 
+			Protects VPC DNS and Cloud Trail Logs
+			Continuously monitors
+			
+		AWS Inspector
+			Automated security assessment for ec2 instances
+			Inspector agent is installed on ec2instance
+		
+		AWS Config
+			Helps with auditing and recording compliance of AWS account
+			
+		AWS Macie
+			Fully managed data security and data privacy service that uses machine learning to protect sensitive data 
+				Sensitive data - PII - Personal Identifiable Information
+			
+			
+## Section 17: Machine Learning
+	
+	AWS Rekognition
+		Find objects, people, text, scenes in images and videos using ML • 
+		Facial analysis and facial search to do user verification, people counting •
+		 Create a database of “familiar faces” or compare against celebrities
+	
+	AWS Transcribe
+		To convert speech into text
+	
+	AWS Polly
+		Text to speech
+	
+	Amazon Translate
+		Translate from one language to another
+		
+	Lex + Connect
+		Lex
+			Powers Alexa
+			ASR - Automatic Speech Recognition
+			Can build chatbots
+		
+		Connect
+			Virtual Contact Center
+			Receive phone calls , create contact flows etc.
+			Connects with existing CRM Customer Relationship Management Services
+			
+	Amazon Comprehend
+		Natural Language Processing
+	
+	Amazon SageMaker
+		Managed service for data scientists to build ML Models
+		Can be used to Label, train , and Deploy model
+		
+## Section 18: Account Management, Billing and Support 
+	
+	AWS Organizations
+		To manage multiple accounts
+			Aggregated usage - therefore discounts from large usage
+		SCP can be implemented to limit resources
+		
+	Pricing Models in AWS
+		4 Pricing models
+		aws.com/free
+	============
+	
+	Estimating Cost in cloud
+		TCO Calculator
+			Shows how much we save on aws vs on-premise
+		
+		AWS Pricing Calculator
+			Shows How much a resource in AWS Costs for the given configurations
+	
+	Tracking Costs in cloud
+			Billing Dashboard
+			Cost Allocation Tags
+			Cost and Usage Reports
+				Delivers to storage service
+				Most details
+			Cost Explorer
+				Dashboard in graphs
+				Forecast based on previous usage
+			
+	Monitor Against Cost plans
+		Billing Alarm
+			Simple graph showing budget
+			Billing data metric stored in us-east-1
+			
+		AWS Budget
+			Can create alerts based on usage or forecast
+	
+	Trusted Advisor
+		Analyze AWS Account and provide suggestions
+		
+		Core check
+			For all customer
+		
+		Full trusted Advisor
+			For Business and Enterprise support
+			Also API support is enabled
+		
+## Section 19: Advanced Identity
+	
+	IAM
+		Identity Access Management
+			Within an AWS account
+	AWS Organizations
+		To manage multiple accounts
+		SCP Limiting
+		
+	Amazon Cognito
+		Identity for web and mobile applications
+		Has sign in with fb, google, twitter options too
+	
+	Microsoft Active Directory
+		Database of objects
+			User account, computer, printers etc ..
+	
+	AWS Directory Services
+	
+	AWS Single-Sign-on (SSO)
+		To access multiple accounts or 3rd party apps like slack etc.
+		
+		
+## Section 20: AWS Architecting and Ecosystem  -- refresh
+	
+	Stop Guessing and Start Scaling
+	
+	Well Architected Framework 5 Pillars 
+	 1) Operational Excellence 
+	 2) Security 
+	 3) Reliability 
+	 4) Performance Efficiency 
+	 5) Cost Optimization
+	
+	Operational Excellence
+		Perform operations as a code
+		Annotate documentation
+		Frequent and small changes
+		Learn from failures
+
+
+
+

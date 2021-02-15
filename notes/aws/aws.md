@@ -105,6 +105,14 @@ VPC Endpoint
 
 [Aws Cloud Formation Templates](https://github.com/awslabs/aws-cloudformation-templates/blob/master/community/services/VPC/vpc_template.json)
 
+To include UserData in EC2 instance through clouf formatio:
+
+  UserData:
+    Fn::Base64: | 
+      #!/bin/bash
+      yum update -y
+
+
 [AWS CloudFormation VPC template](https://docs.aws.amazon.com/codebuild/latest/userguide/cloudformation-vpc-template.html)
 
 

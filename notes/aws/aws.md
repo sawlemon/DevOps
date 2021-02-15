@@ -105,12 +105,17 @@ VPC Endpoint
 
 [Aws Cloud Formation Templates](https://github.com/awslabs/aws-cloudformation-templates/blob/master/community/services/VPC/vpc_template.json)
 
-To include UserData in EC2 instance through clouf formatio:
+## To include UserData in EC2 instance through clouf formation:
 
-  UserData:
-    Fn::Base64: | 
-      #!/bin/bash
-      yum update -y
+    UserData:
+      Fn::Base64: | 
+        #!/bin/bash
+        yum update -y
+
+## Cloud Formation User Data Logs :
+
+    /var/log/cloud-init-output.log
+    /var/log/cfn-init.log (cfn signal and wait logs)
 
 
 [AWS CloudFormation VPC template](https://docs.aws.amazon.com/codebuild/latest/userguide/cloudformation-vpc-template.html)

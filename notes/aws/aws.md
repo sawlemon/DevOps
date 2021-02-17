@@ -263,3 +263,8 @@ https://github.com/awslabs/aws-config-rules/tree/master/python
 [Working with AWS CloudFormation StackSe](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)
 
     AWS CloudFormation StackSets extends the functionality of stacks by enabling you to create, update, or delete stacks across multiple accounts and regions with a single operation. Using an administrator account, you define and manage an AWS CloudFormation template, and use the template as the basis for provisioning stacks into selected target accounts across specified regions.
+
+
+Aws CLI command to view Account ID:
+
+    account_id=`aws sts get-caller-identity|jq -r ".Account"`

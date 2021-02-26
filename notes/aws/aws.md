@@ -268,3 +268,6 @@ https://github.com/awslabs/aws-config-rules/tree/master/python
 Aws CLI command to view Account ID:
 
     account_id=`aws sts get-caller-identity|jq -r ".Account"`
+
+IP Range
+![](images/2021-02-26-13-51-59.png)

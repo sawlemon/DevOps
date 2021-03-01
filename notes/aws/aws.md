@@ -271,3 +271,11 @@ Aws CLI command to view Account ID:
 
 IP Range
 ![](images/2021-02-26-13-51-59.png)
+
+## Cloud Development Kit - cdk
+    
+    Infrastructure as a code
+
+https://cdkworkshop.com/
+
+https://github.com/aws/aws-cdk

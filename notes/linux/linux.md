@@ -323,3 +323,8 @@ Using chmod with Absolute Permissions
     1 - Execute 
     2 - Write
     4 - Read
+
+[nohup command](https://www.computerhope.com/unix/unohup.htm)
+    Run a command in background and store its output in a file
+
+

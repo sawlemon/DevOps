@@ -36,4 +36,4 @@ Ansible Tower
 
 [Ansible Tower overview | Ec2 Instance ping test | simple playbook execution](https://youtu.be/_YoMHt8WzHk)
 
-![](ansible_ping_success.png)
+![](images/ansible_ping_success.png)

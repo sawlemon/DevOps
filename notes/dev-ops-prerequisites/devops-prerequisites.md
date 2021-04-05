@@ -1,6 +1,6 @@
 https://youtu.be/Wvf0mBNGjXY
 
-![](curriculum.png)
+![](images/curriculum.png)
 
 ## Linux Basics
 
@@ -28,7 +28,7 @@ Check OS Version
 Cent OS package manager
 RPM - RedHat Package Manager
 
-![](2020-10-01-13-31-56.png)
+![](images/2020-10-01-13-31-56.png)
 
 RPM does not install the dependency pakages, it just installs the \<package_name>.rpm file.
 
@@ -41,18 +41,18 @@ yum uses rpm to install packages
 repo info is stored at `/etc/yum.repos.d`
 
 `yum repolist`
-![](2020-10-01-13-35-57.png)
+![](images/images/2020-10-01-13-35-57.png)
 
 
 
 ## Sevices
 
 Run a service even after reboot
-![](2020-10-01-13-38-30.png)
+![](images/2020-10-01-13-38-30.png)
 
 systemd file is rquired to achieve this
 
-![](2020-10-01-13-40-32.png)
+![](images/2020-10-01-13-40-32.png)
 
 inside `/etc/systemd/system` folder create a \<servicename>.system file
 
@@ -74,10 +74,10 @@ finally
 Example
 
 Docker Service FIle
-![](2020-10-01-13-45-50.png)
+![](images/2020-10-01-13-45-50.png)
 
 
-## [Daemon](https://en.wikipedia.org/wiki/Daemon_(computing))
+## [Daemon](images/https://en.wikipedia.org/wiki/Daemon_(computing))
 
 A daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user.
 
@@ -89,9 +89,9 @@ syslogd is a daemon that implements system logging facility, and sshd is a daemo
 
 `vi filename`
 
-![](2020-10-01-13-49-12.png)
+![](images/2020-10-01-13-49-12.png)
 
-![](2020-10-01-13-49-56.png)
+![](images/2020-10-01-13-49-56.png)
 
 
 Tools
@@ -144,7 +144,7 @@ Windows - RDP Services
 Linux `service sshd status` SSH Service
 
 if ip address is not set, run the following
-![](2020-10-01-14-06-49.png)
+![](images/2020-10-01-14-06-49.png)
 
 ## [NAT](https://en.wikipedia.org/wiki/Network_address_translation)
 

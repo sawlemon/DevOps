@@ -1,4 +1,4 @@
-![](docker_logo.png)
+![](images/docker_logo.png)
 
 ## [Docker](https://docs.docker.com/get-started/)
 
@@ -45,7 +45,7 @@ Run as root user inside a container
 
 
 Entrypoint
-![](2020-10-04-19-33-29.png)
+![](images/2020-10-04-19-33-29.png)
 
 
 To skip port map
@@ -129,7 +129,7 @@ List Services
 `docker stack services ls`
 
 
-![](2020-11-05-12-14-20.png)
+![](images/2020-11-05-12-14-20.png)
 
 `docker network create -d overlay my-overlay`
 
@@ -137,7 +137,7 @@ List Services
 
 ## Docker Swarm
 
-![](2020-11-06-15-48-47.png)
+![](images/2020-11-06-15-48-47.png)
 
 [Fault Tolerance](https://docs.docker.com/engine/swarm/admin_guide/#add-manager-nodes-for-fault-tolerance)
 

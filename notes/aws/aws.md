@@ -3,7 +3,7 @@
   
 [What is Cloud Computing](https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/)
 
-![](2020-11-16-14-55-47.png)
+![](images/2020-11-16-14-55-47.png)
 
 [aws core services](https://www.aws.training/Details/eLearning?id=29700)
 
@@ -13,7 +13,7 @@
 [Aws docs VPCs and subnets](https://github.com/awsdocs/amazon-vpc-user-guide/blob/master/doc_source/VPC_Subnets.md#vpc-subnet-basics)
 
 [AWS Foundations: Getting Started with the AWS Cloud Essentials](https://www.aws.training/Details/Video?id=49639)
-![](instancetype.png)
+![](images/instancetype.png)
 
 
 ## [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html)
@@ -31,7 +31,7 @@ When you create a VPC, you must specify a range of IPv4 addresses for the VPC in
 
 Availability Zones are multiple, isolated locations within each Region.
 
-![](2020-10-02-23-49-11.png)
+![](images/2020-10-02-23-49-11.png)
 
 
 1. An internet gateway enables communication over the internet, and a virtual private network (VPN) connection enables communication with your corporate network.
@@ -42,11 +42,11 @@ If a subnet's traffic is routed to an internet gateway, the subnet is known as a
 
 Range of IP Adresses in the VPC.
 
-![](2020-10-02-23-52-05.png)
+![](images/2020-10-02-23-52-05.png)
 
 ### Aws uses the first 4 and last 1 IP Address in a subnet forr internal purposes. So the subnet count is reduced by 5
 
-![](2020-10-03-01-02-31.png)
+![](images/2020-10-03-01-02-31.png)
 
 If you create a VPC or subnet using a command line tool or the Amazon EC2 API, the CIDR block is automatically modified to its canonical form. For example, if you specify 100.68.0.18/18 for the CIDR block, we create a CIDR block of 100.68.0.0/18
 
@@ -78,7 +78,7 @@ An Elastic IP address is a static IPv4 address associated with your AWS account 
 VPC Endpoint
   - conect within aws (only available with s3 for now) a connection from private instance to an s3 bucket without nat. 
 
-![](vpcendpoint.png)
+![](images/vpcendpoint.png)
 
 ## Load Balancer
 
@@ -92,14 +92,14 @@ VPC Endpoint
    EBS is only accessible from a single EC2 instance in your particular AWS region 
    
    EFS allows you to mount the file system across multiple regions and instances
-![](perfvs/.png)
+![](images/.png)
 
-![](2020-11-11-15-09-27.png)
+![](images/2020-11-11-15-09-27.png)
 
-![](2020-11-11-15-13-44.png)
+![](images/2020-11-11-15-13-44.png)
 
 ## Block Sorage vs Object
-![](clockvsobj.png)
+![](images/clockvsobj.png)
 
 [Peer with a VPC in another Account](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/peer-with-vpc-in-another-account.html)
 
@@ -140,7 +140,7 @@ VPC Endpoint
     Platform as a service
 
 Other Paas
-![](pass.png)
+![](images/pass.png)
 
 [Tutorial: Log the State of an Amazon EC2 Instance Using CloudWatch Events](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/LogEC2InstanceState.html)
 
@@ -152,7 +152,7 @@ Other Paas
 [Amazon Relational Database Service (Amazon RDS)](https://youtu.be/igRfulrrYCo)
 
 [AWS Tutorial - Launch a RDS MySQL instance and connect to it using Linux EC2](https://youtu.be/xzCgeRxSzy4)
-![](rds-mysql-connectionstring.png)
+![](images/rds-mysql-connectionstring.png)
 
 ## Amazon Aurora
 
@@ -162,10 +162,10 @@ Other Paas
 
 [AWS Security Fundamentals - Introduction to Cloud Computing and AWS Security](https://www.aws.training/Details/eLearning?id=10796)
 
-![](2020-11-18-13-56-19.png)
+![](images/2020-11-18-13-56-19.png)
 
 Compute Isolation
-![](2020-11-18-13-58-10.png)
+![](images/2020-11-18-13-58-10.png)
 
 [Linux AMI virtualization types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/virtualization_types.html)
 
@@ -185,7 +185,7 @@ Best Practices for Public Sector AWS Security Posture
 
 [Building APIs with Amazon API Gateway](https://youtu.be/XwfpPEFHKtQ)
 
-![](serverless-infra.png)
+![](images/serverless-infra.png)
 
 [AWS re:Invent 2019: [REPEAT 2] I didn’t know Amazon API Gateway did that (SVS212-R2)](https://youtu.be/yfJZc3sJZ8E)
 
@@ -197,7 +197,7 @@ Best Practices for Public Sector AWS Security Posture
 [Building Real Time Applications using WebSocket APIs Supported by Amazon API Gateway](https://youtu.be/3SCdzzD0PdQ)
 
 https://github.com/aws-samples/simple-websockets-chat-app
-![](websocketlimits.png)
+![](images/websocketlimits.png)
 
 
 Aws Chatbot

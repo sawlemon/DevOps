@@ -9,7 +9,7 @@
 `df`
 
     report file system disk space usage
-![](2020-10-05-12-36-05.png)
+![](images/2020-10-05-12-36-05.png)
 
 `du`
     
@@ -17,27 +17,27 @@
     show how much space is utilized by a folder / file passed as argument
 
 
-![](2020-10-05-12-41-41.png)
+![](images/2020-10-05-12-41-41.png)
 
 why difference ??
 
-![](2020-10-05-12-42-35.png)
+![](images/2020-10-05-12-42-35.png)
 
 ## [env](https://en.wikipedia.org/wiki/Env)
 
     Run a program in modefied environment or view environment variables
 
 `env`
-![](2020-10-05-12-55-15.png)
+![](images/2020-10-05-12-55-15.png)
 
-![](2020-10-05-13-01-42.png)
+![](images/2020-10-05-13-01-42.png)
 
 
 `export`
 
     set env variables 
 
-![](2020-10-05-13-02-59.png)
+![](images/2020-10-05-13-02-59.png)
 
 
 [Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) `#!`
@@ -48,7 +48,7 @@ why difference ??
 
 `netstat`
 
-![](2020-10-05-13-17-48.png)
+![](images/2020-10-05-13-17-48.png)
 
 `top` 
 
@@ -65,7 +65,7 @@ why difference ??
 `free`
 
     displays memory details 
-![](2020-10-05-13-22-33.png)    
+![](images/2020-10-05-13-22-33.png)    
 
 `/etc` - Usually contain the configuration files for all the programs that run on your Linux/Unix system.
 
@@ -86,7 +86,7 @@ why difference ??
     vi starts vim in ubuntu by default
 
 [umask](https://www.computerhope.com/unix/uumask.htm#:~:text=On%20Linux%20and%20other%20Unix,show%20you%20its%20current%20value.)
-![](umask.png)
+![](images/umask.png)
 
 
 [Telnet vs SSH](https://study-ccna.com/telnet-ssh/)
@@ -117,9 +117,9 @@ NAT vs Proxy
 
 [examples](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
 
-![](2020-10-05-15-53-07.png)
+![](images/2020-10-05-15-53-07.png)
 
-![](scommand.png)
+![](images/scommand.png)
 
 [find](https://en.wikipedia.org/wiki/Find_(Unix)) 
 
@@ -183,7 +183,7 @@ To create a symbolic Link
 
 [gzip](https://en.wikipedia.org/wiki/Gzip)
 
-![](targzip.png)
+![](images/targzip.png)
 
 [How To Read and Set Environmental and Shell Variables on a Linux VPS](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps#:~:text=Environmental%20variables%20are%20used%20to,like%20the%20current%20working%20directory.)
 
@@ -199,13 +199,13 @@ To create a symbolic Link
 
 [C Shell csh](https://en.wikipedia.org/wiki/C_shell)
 
-![](2020-10-06-01-16-03.png)
+![](images/2020-10-06-01-16-03.png)
 
-![](2020-10-06-01-16-23.png)
+![](images/2020-10-06-01-16-23.png)
 
 Files read by bash during login
 
-![](bashreads.png)
+![](images/bashreads.png)
 
 [screen tool](https://linuxize.com/post/how-to-use-linux-screen/)
 
@@ -228,13 +228,13 @@ Files read by bash during login
 
 command execute and use output as param
 
-![](2020-10-06-14-21-02.png)
+![](images/2020-10-06-14-21-02.png)
 
 ## [what does <<< mean ? - Here String ](https://unix.stackexchange.com/questions/80362/what-does-mean)
 
 [Here Document](https://en.wikipedia.org/wiki/Here_document#Unix_shells)
 
-![](heredoc.png)
+![](images/heredoc.png)
 
 ## Shell Script Headers
 
@@ -265,7 +265,7 @@ https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 
 [Sudoers-syntax](https://toroid.org/sudoers-syntax)
 
-![](2020-10-09-10-58-02.png)
+![](images/2020-10-09-10-58-02.png)
 
 [Passwordless SSH into Remote Machine](https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/)
 
@@ -305,7 +305,7 @@ Check OS Version
 Cent OS package manager
 RPM - RedHat Package Manager
 
-![](2020-10-01-13-31-56.png)
+![](images/2020-10-01-13-31-56.png)
 
 RPM does not install the dependency pakages, it just installs the \<package_name>.rpm file.
 
@@ -318,7 +318,7 @@ yum uses rpm to install packages
 repo info is stored at `/etc/yum.repos.d`
 
 Using chmod with Absolute Permissions
-![](chmod_values.png)
+![](images/chmod_values.png)
 
     1 - Execute 
     2 - Write
@@ -326,5 +326,10 @@ Using chmod with Absolute Permissions
 
 [nohup command](https://www.computerhope.com/unix/unohup.htm)
     Run a command in background and store its output in a file
+
+
+[How and why (not) to use the 127.0.0.53 nameserver, systemd-resolved and resolvctl Or what is syste…
+](https://youtu.be/DtFjrJdnWAU)
+
 
 

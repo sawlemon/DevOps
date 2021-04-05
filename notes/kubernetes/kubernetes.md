@@ -7,7 +7,7 @@
 
 ## [Components](https://kubernetes.io/docs/concepts/overview/components)
 
-![](kubernetes-components.png)
+![](images/kubernetes-components.png)
 
 Pod
   -  abstraction over a container
@@ -60,13 +60,13 @@ Edit a Pod
 ## Rolling Updates
   -  If there is a cluster of servers, Upgrading all at once cvauses a downtime. Hence roll the updates in batches.
 
-![](rolling-update.png)
+![](images/rolling-update.png)
 
 *default behaviour in K8*
 
 `kubectl apply -f <deployment file>`
 
-![](2020-12-01-13-27-44.png)
+![](images/2020-12-01-13-27-44.png)
 
 ## Rollback
 

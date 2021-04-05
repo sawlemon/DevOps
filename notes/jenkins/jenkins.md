@@ -18,7 +18,7 @@ or simply go for docker image
 
 [Plugins Index](https://plugins.jenkins.io/)
 
-![](2020-12-18-13-23-05.png)
+![](images/2020-12-18-13-23-05.png)
 
 
 

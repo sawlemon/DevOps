@@ -279,3 +279,8 @@ IP Range
 https://cdkworkshop.com/
 
 https://github.com/aws/aws-cdk
+
+
+
+[GSI vs LSI - DynamoDB](https://medium.com/@jun711.g/aws-dynamodb-global-and-local-secondary-indexes-comparison-80f4c587b1d7)
+

@@ -280,7 +280,7 @@ https://cdkworkshop.com/
 
 https://github.com/aws/aws-cdk
 
-
+[Secondary Index - DynamoDB](https://medium.com/@jun711.g/create-secondary-indexes-for-aws-dynamodb-to-prevent-scanning-3b210b2764bf)
 
 [GSI vs LSI - DynamoDB](https://medium.com/@jun711.g/aws-dynamodb-global-and-local-secondary-indexes-comparison-80f4c587b1d7)
 

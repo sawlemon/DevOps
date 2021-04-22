@@ -297,3 +297,6 @@ https://github.com/aws/aws-cdk
   - create objects with *_v1.* and *_v2.* (or)
   - enable bucket versioning and in query string *?version=1 
 
+[Why is CloudFront serving outdated content from Amazon S3?](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serving-outdated-content-s3/)
+
+[Caching content based on query string parameters](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/QueryStringParameters.html)

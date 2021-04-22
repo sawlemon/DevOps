@@ -30,3 +30,6 @@
 
 *You can integrate distributed
 tracing to track requests as they travel through your workload.*
+
+pg:24 operational readiliness
+

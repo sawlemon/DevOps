@@ -289,3 +289,11 @@ https://github.com/aws/aws-cdk
 
 [AWS CloudShell](https://aws.amazon.com/cloudshell/)
 - Command line access to AWS resources and tools directly from a browser
+
+
+[CloudFront Cache Ivalidaion](https://youtu.be/JTOSzL8rLtk)
+- Creating Invalidations
+- Cache Busting
+  - create objects with *_v1.* and *_v2.* (or)
+  - enable bucket versioning and in query string *?version=1 
+

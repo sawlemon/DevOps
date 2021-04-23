@@ -1,5 +1,8 @@
 ## Ansible
 
+[Ansible 101](https://youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN)
+
+
 [How To Install and Configure Ansible Tower on CentOS 7 / RHEL 7/8](https://computingforgeeks.com/install-and-configure-ansible-tower-on-centos-rhel/)
 
 [How to use Ansible to deploy your Website](https://www.serverlab.ca/tutorials/dev-ops/automation/how-to-use-ansible-to-deploy-your-website/)

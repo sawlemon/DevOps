@@ -324,6 +324,15 @@ Using chmod with Absolute Permissions
     2 - Write
     4 - Read
 
+## File Permissions
+
+.ssh - 700
+
+.ssh/autorized_keys - 600
+
+prvate keys - 400
+
+
 [nohup command](https://www.computerhope.com/unix/unohup.htm)
     Run a command in background and store its output in a file
 

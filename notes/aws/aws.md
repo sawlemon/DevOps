@@ -154,6 +154,9 @@ Other Paas
 [AWS Tutorial - Launch a RDS MySQL instance and connect to it using Linux EC2](https://youtu.be/xzCgeRxSzy4)
 ![](images/rds-mysql-connectionstring.png)
 
+
+[How do I enable and monitor logs for an Amazon RDS MySQL DB instance?](https://aws.amazon.com/premiumsupport/knowledge-center/rds-mysql-logs/)
+
 ## Amazon Aurora
 
 [Amazon AURORA Explained | How does Aurora work? Visual Explanation](https://youtu.be/3DClteE-AUc)

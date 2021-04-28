@@ -341,5 +341,24 @@ prvate keys - 400
 ](https://youtu.be/DtFjrJdnWAU)
 
 
+[How to expand , increase Ubuntu VM hard disk on VMware WorkStation](https://youtu.be/3Xq822qgwA8)
 
 
+Ubuntu switch to console mode
+
+    ctrl + alt + f1
+
+switch to GUI Mode
+
+    ctrl + alt + f7
+
+Creating ssh alias in Windows
+
+- navigate to ~/.ssh/
+- open `config` file
+
+config to add
+
+    Host ubuntu20
+        User sala
+        HostName 192.168.91.129

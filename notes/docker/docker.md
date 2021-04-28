@@ -166,3 +166,8 @@ List Services
     CMD 5
 
     when running thsi container if 10 is passed as parameter the system sleeps for 10 secs, if no args passed , it sleeps for 5 sec
+
+Remove all the docker container 
+
+`docker container rm $(docker container ls -aq)`
+

@@ -40,3 +40,15 @@ Ansible Tower
 [Ansible Tower overview | Ec2 Instance ping test | simple playbook execution](https://youtu.be/_YoMHt8WzHk)
 
 ![](images/ansible_ping_success.png)
+
+
+Install AWX from docker 
+
+`curl https://hub.docker.com/r/geerlingguy/awx_web > docker-compose.yml`
+
+`docker-comnpose up -d`
+
+Default Credentials
+
+    username: admin
+    password: password

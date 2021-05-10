@@ -6,3 +6,5 @@
 
 
 [An Intro to GitHub Actions + Terraform + AWS](https://medium.com/swlh/lets-do-devops-github-actions-terraform-aws-77ef6078e4f2)
+
+[Terraform deployments with AWS CodePipeline](https://faun.pub/terraform-deployments-with-aws-codepipeline-342074248843)

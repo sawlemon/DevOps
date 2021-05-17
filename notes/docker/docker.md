@@ -28,7 +28,7 @@ add user to run docker
 
 `sudo usermod -aG docker ubuntu`
 
-
+Docker Build 
 
 `docker build --tag container-name:version <path-to-docker-file>`
 
@@ -179,4 +179,3 @@ List Services
 Remove all the docker container 
 
 `docker container rm $(docker container ls -aq)`
-

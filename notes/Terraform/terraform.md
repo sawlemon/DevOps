@@ -34,3 +34,10 @@ Drift Detection tools
 - [digirati-labs/drifter](https://github.com/digirati-labs/drifter)
 - [futurice/terraform-monitor-lambda](https://github.com/futurice/terraform-monitor-lambda)
 - [virtualdom/tfdd](https://github.com/virtualdom/tfdd)
+
+
+---
+
+[Terrraform Docs](https://terraform-docs.io/user-guide/introduction/)
+
+[Testing HashiCorp Terraform](https://www.hashicorp.com/blog/testing-hashicorp-terraform)

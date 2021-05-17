@@ -42,6 +42,8 @@ Ansible Tower
 ![](images/ansible_ping_success.png)
 
 
+## Installing AWX
+
 Install AWX from docker 
 
 `curl https://hub.docker.com/r/geerlingguy/awx_web > docker-compose.yml`
@@ -52,3 +54,10 @@ Default Credentials
 
     username: admin
     password: password
+
+If the above method doesn't work, try the below
+
+[Installing AWX on OSX](https://devhops.medium.com/installing-awx-on-osx-a6b767dc5f09)
+
+
+`git clone -b 17.0.1 https://github.com/ansible/awx.git`

@@ -1,6 +1,11 @@
 **In aws free tier account beware of NAT Gateway - It's expensive**
 **1 GB of EBS per month, Do not create AMI's or save snapshots**
-  
+
+AWS is not available in Russia, So instead a similar alternative is Yandex Cloud
+
+[Yandex Equivalents for Amazon Web Services](https://cloud.yandex.com/en/docs/overview/platform-comparison/aws)
+
+
 [What is Cloud Computing](https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/)
 
 ![](images/2020-11-16-14-55-47.png)

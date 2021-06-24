@@ -310,3 +310,5 @@ https://github.com/aws/aws-cdk
 [Caching content based on query string parameters](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/QueryStringParameters.html)
 
 [CORS configuration](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManageCorsUsing.html)
+
+[AWS Professional Services](https://aws.amazon.com/professional-services/)

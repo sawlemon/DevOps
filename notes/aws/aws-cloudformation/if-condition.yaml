@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Conditions:
+  EvaluatesToYes: !Not
+    - !Equals 
+      - 'yes' 
+      - 'no'
+
+Resources:
+  CrawlerDatabase:
+    Type: AWS::Glue::Database
+    Properties: 
+      CatalogId: !Ref AWS::AccountId
+      DatabaseInput:
+        Name: sala-sample-database
+        Description: !If
+          - EvaluatesToYes
+          - This description is evaluated from true value
+          - This description is evaluated from false value
+
+  GlueCrawler:
+    Type: AWS::Glue::Crawler
+
+    Properties: 
+      DatabaseName: !Ref CrawlerDatabase
+      Name: sala-crawler
+      Role: arn:aws:iam::853973692277:role/service-role/AWSGlueServiceRole-sala
+      Targets:
+        S3Targets:
+          - 
+            Path: s3://sala-cloudwatch-logs/clowdwatch-logs/log-events-viewer-result.csv

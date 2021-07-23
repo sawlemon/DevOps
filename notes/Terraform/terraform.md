@@ -41,3 +41,11 @@ Drift Detection tools
 [Terrraform Docs](https://terraform-docs.io/user-guide/introduction/)
 
 [Testing HashiCorp Terraform](https://www.hashicorp.com/blog/testing-hashicorp-terraform)
+
+[terraform-docs](https://github.com/terraform-docs/terraform-docs)
+
+`brew install terraform-docs`
+
+Create Markdown for terraform 
+
+`terraform-docs markdown ./ > README.md`

@@ -49,3 +49,5 @@ Drift Detection tools
 Create Markdown for terraform 
 
 `terraform-docs markdown ./ > README.md`
+
+[Terraform Workspaces](https://github.com/OT-TRAINING/Terraform_Workspace)

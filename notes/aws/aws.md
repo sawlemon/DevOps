@@ -312,3 +312,5 @@ https://github.com/aws/aws-cdk
 [CORS configuration](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ManageCorsUsing.html)
 
 [AWS Professional Services](https://aws.amazon.com/professional-services/)
+
+[Cut over](https://docs.aws.amazon.com/prescriptive-guidance/latest/strategy-database-migration/cut-over.html)

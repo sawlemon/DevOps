@@ -12,6 +12,8 @@
 ---
 ## Best Practices
 
+[terraform-best-practices](https://www.terraform-best-practices.com/)
+
 [How To Create Reusable Infrastructure with Terraform Modules and Templates](https://www.digitalocean.com/community/tutorials/how-to-create-reusable-infrastructure-with-terraform-modules-and-templates)
 
 [Terraform With Multiple Environments](https://www.codurance.com/publications/2020/04/28/terraform-with-multiple-environments)

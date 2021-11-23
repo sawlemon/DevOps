@@ -9,6 +9,12 @@
 
 [Terraform deployments with AWS CodePipeline](https://faun.pub/terraform-deployments-with-aws-codepipeline-342074248843)
 
+---
+## Best Practices
+
+[How To Create Reusable Infrastructure with Terraform Modules and Templates](https://www.digitalocean.com/community/tutorials/how-to-create-reusable-infrastructure-with-terraform-modules-and-templates)
+
+[Terraform With Multiple Environments](https://www.codurance.com/publications/2020/04/28/terraform-with-multiple-environments)
 
 ## Drift Detection 
 [Detecting and Managing Drift with Terraform](https://www.hashicorp.com/blog/detecting-and-managing-drift-with-terraform)

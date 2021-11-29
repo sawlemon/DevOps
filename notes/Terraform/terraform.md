@@ -9,6 +9,7 @@
 
 [Terraform deployments with AWS CodePipeline](https://faun.pub/terraform-deployments-with-aws-codepipeline-342074248843)
 
+[The terraform_remote_state Data Source](https://www.terraform.io/docs/language/state/remote-state-data.html)
 ---
 ## Best Practices
 

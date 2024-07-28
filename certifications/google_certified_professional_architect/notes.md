@@ -24,3 +24,5 @@ GCP has a different concept of subnets compared to other clouds.
 ### Serverless VPC Access
 - A non-vpc component needs to access a VPC component, then serverless VPC access is used
 - A connector is spun up (basically a VM) which scales and acts as a proxy to our requests.
+
+![Choosing a compute plaform](choosing_compute_platform.png)

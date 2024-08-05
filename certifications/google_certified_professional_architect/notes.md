@@ -26,3 +26,20 @@ GCP has a different concept of subnets compared to other clouds.
 - A connector is spun up (basically a VM) which scales and acts as a proxy to our requests.
 
 ![Choosing a compute plaform](choosing_compute_platform.png)
+
+# Data Storing
+1. Structured data
+2. Semi-structured data
+3. Unstructured data
+
+## Structured data
+- Cloud SQL
+- Spanner
+
+## Semi-structured data
+- Firestore
+- BigTable
+    - No SQL big data DB
+
+## Unstructured data
+- Cloud Storage

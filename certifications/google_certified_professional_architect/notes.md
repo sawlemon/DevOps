@@ -43,3 +43,16 @@ GCP has a different concept of subnets compared to other clouds.
 
 ## Unstructured data
 - Cloud Storage
+
+
+[GCP’s CUDs vs SUDs – Comparing Savings on Discounts Pricing](https://blog.economize.cloud/gcp-cud-vs-sud/)
+
+Committed Use Discounts (GCP CUD) vs Sustained Use Discounts (GCP SUD)
+
+## GCP CUD
+- Commitment for long term use (1 or 3 years)
+
+## GCP SUD
+- No commitment needed
+- Reward for consistently using certain services over a billing month
+- The more you use a particular resource within the month, the greater the discount you receive

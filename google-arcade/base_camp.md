@@ -8,6 +8,3 @@
 - BigQuery natively supports arrays
 - Array values must share a data type
 - Arrays are called REPEATED fields in BigQuery
-
-## Autoscaling an Instance Group with Custom Cloud Monitoring Metrics
-

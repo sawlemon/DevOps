@@ -47,7 +47,7 @@ GCP has a different concept of subnets compared to other clouds.
 
 [GCP’s CUDs vs SUDs – Comparing Savings on Discounts Pricing](https://blog.economize.cloud/gcp-cud-vs-sud/)
 
-## Committed Use Discounts (GCP CUD) vs Sustained Use Discounts (GCP SUD)
+# Committed Use Discounts (GCP CUD) vs Sustained Use Discounts (GCP SUD)
 
 ## GCP CUD
 - Commitment for long term use (1 or 3 years)
@@ -56,6 +56,13 @@ GCP has a different concept of subnets compared to other clouds.
 - No commitment needed
 - Reward for consistently using certain services over a billing month
 - The more you use a particular resource within the month, the greater the discount you receive
+
+---
+Qn: Why not just type the below instead of using drawing tool?
+
+ans: If the font is much more difficult to read then it makes the information stick in the brain because of the more attention it requires to read the text.
+
+cons: cannot use search in the file to extract specific information, That's not a concern because information can be looked up else where. These are just to identify the mistakes made and for mental notes.
 
 ![jenko](image.png)
 ![jenko 2](image-1.png)
@@ -71,3 +78,10 @@ GCP has a different concept of subnets compared to other clouds.
 ![practice_test_1](image-5.png)
 
 ![practice_test_1_2](image-6.png)
+
+![practice_test_1_3](image-8.png)
+
+--- 
+## Practice test 2
+
+![practice_test_2](image-7.png)

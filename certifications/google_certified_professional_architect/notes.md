@@ -65,3 +65,9 @@ GCP has a different concept of subnets compared to other clouds.
 ![mountkirk](image-3.png)
 
 ![TerramEarth](image-4.png)
+
+## Practice test 1
+
+![practice_test_1](image-5.png)
+
+![practice_test_1_2](image-6.png)

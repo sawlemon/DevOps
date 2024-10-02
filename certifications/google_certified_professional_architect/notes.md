@@ -85,3 +85,20 @@ cons: cannot use search in the file to extract specific information, That's not 
 ## Practice test 2
 
 ![practice_test_2](image-7.png)
+
+![practice_test_2_2](image-9.png)
+---
+
+## Practice Test 3
+
+![practice_test_3](image-10.png)
+
+![practice_test_3_2](image-11.png)
+
+---
+
+## Practice Test 4
+
+![practice_test_4](image-12.png)
+
+![practice_test_4_2](image-13.png)
